@@ -4,12 +4,3 @@ Code and code solutions to accompany exercise 2a on strings and string operation
 ## Exercise 1
 [Ex: simple](./1a_helloworld_variant.py)
 
-```console title=Simple console session
-$ echo "Hello World"
-Hello World
-
-$ ls -l
-total 0
--rw-r--r--  1 user  staff  0 Sep 24 10:00 file.txt
-$
-```
