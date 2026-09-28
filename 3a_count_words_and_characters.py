@@ -2,8 +2,8 @@ quote = "To learn, one must be humble. But life is the great teacher."
 
 print(f"Original String: {quote}")
 
-for word in quote.split():
+for i, word in enumerate(quote.split(),1):
     word = word.strip('.').lower()
-    print(f"Word {word} has {len(word)} characters.")
+    print(f"Word {i}: '{word}' has {len(word)} characters.")
 
 
